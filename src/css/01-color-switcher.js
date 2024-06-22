@@ -20,3 +20,14 @@ function stopChangingColor() {
   clearInterval(intervalId);
   intervalId = null;
 }
+const myButton = document.getElementById("start")
+
+myButton.addEventListener('click', function() {
+  startChangingColor();
+});
+
+const myButton2 = document.getElementById("stop")
+
+myButton2.addEventListener('click', function() {
+  stopChangingColor();
+});
