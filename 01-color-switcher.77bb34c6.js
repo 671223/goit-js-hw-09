@@ -85,5 +85,13 @@ function $203607b850f44ee1$var$stopChangingColor() {
     clearInterval($203607b850f44ee1$var$intervalId);
     $203607b850f44ee1$var$intervalId = null;
 }
+var $203607b850f44ee1$var$myButton = document.getElementById("start");
+$203607b850f44ee1$var$myButton.addEventListener("click", function() {
+    $203607b850f44ee1$var$startChangingColor();
+});
+var $203607b850f44ee1$var$myButton2 = document.getElementById("stop");
+$203607b850f44ee1$var$myButton2.addEventListener("click", function() {
+    $203607b850f44ee1$var$stopChangingColor();
+});
 
 })();

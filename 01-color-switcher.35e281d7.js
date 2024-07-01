@@ -17,5 +17,13 @@ function $0cb3843cd6ff9825$var$stopChangingColor() {
     clearInterval($0cb3843cd6ff9825$var$intervalId);
     $0cb3843cd6ff9825$var$intervalId = null;
 }
+const $0cb3843cd6ff9825$var$myButton = document.getElementById("start");
+$0cb3843cd6ff9825$var$myButton.addEventListener("click", function() {
+    $0cb3843cd6ff9825$var$startChangingColor();
+});
+const $0cb3843cd6ff9825$var$myButton2 = document.getElementById("stop");
+$0cb3843cd6ff9825$var$myButton2.addEventListener("click", function() {
+    $0cb3843cd6ff9825$var$stopChangingColor();
+});
 
 
